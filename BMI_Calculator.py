@@ -1,4 +1,4 @@
-
+print("Welcome to the BMI calculator! We will ask you some questions to check whether your body is under weight or overweight from your BMI.")
 height = float(input("enter your height in m: "))
 weight = float(input("enter your weight in kg: "))
 BMI = round(weight/(height**2))
